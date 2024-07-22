@@ -19,7 +19,7 @@
 
 - Java 6, Java 7, Java 16 **needs to login to the oracle network** to download; Java 8, Java 17, Java 21 **does not**.
 
-- Java 7 and above can run on Mac. Java 7 and above can run on Mac. **Oracle Java 8 requires administrator permission to install**\*\*
+- Java 7 and above can run on Mac. Java 7 and above can run on Mac. **Oracle Java 8 requires administrator permission to install**
 
 - Java downloading tutorials for **Linux** [⏭️](https://cn.linux-console.net/?p=31017)
 
