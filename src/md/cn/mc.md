@@ -3,7 +3,7 @@
     <li class="center text"><a href="#mc-version">版本更新</a></li>
 </ul>
 
-<div id="mc-java">
+<div id="mc-java" style="display: none;">
 
 ## ➡️ 各版本运行所需的Java版本
 - **[1.0 ~ 1.11.x]** ~~可以使用 [Java 6](https://www.oracle.com/java/technologies/javase-java-archive-javase6-downloads.html) 和 [Java 7](https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html)~~，推荐使用 **[Java 8](https://sdlc-esd.oracle.com/ESD6/JSCDL/jdk/8u421-b09/d8aa705069af427f9b83e66b34f5e380/JavaSetup8u421.exe?GroupName=JSC&FilePath=/ESD6/JSCDL/jdk/8u421-b09/d8aa705069af427f9b83e66b34f5e380/JavaSetup8u421.exe&BHost=javadl.sun.com&File=JavaSetup8u421.exe&AuthParam=1721620258_ef8af9a331f074e13a8d495ebcacc50c&ext=.exe)**；
@@ -26,7 +26,7 @@
 
 ---
 
-<div id="mc-version">
+<div id="mc-version" style="display: none;">
 
 ## ➡️ 我的世界各个版本的发展史
 
