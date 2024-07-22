@@ -47,7 +47,7 @@
 - **1.0**: Added **the end and animal breeding**；
 - **1.1**: Added **spawner eggs**；
 - **1.2.1**: Added **forest biome**；
-- **1.3.1** ：添加了**村民交易系统、沙漠群系和丛林神庙建筑**；
+- **1.3.1** ：: Added **villager trading system, desert biome, and jungle temple buildings**;
 - **1.4.2** ：添加了**女巫、胡萝卜、马铃薯、南瓜派、夜视和隐身药水**；
 - **1.5** ：添加了**红石系统和石英相关物品**；
 - **1.6** ：添加了**马**；
