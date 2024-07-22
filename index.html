@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MoY Studio Wiki</title>
+    
+    <meta charset="utf-8">
+    <meta name="keywords" content="Minecraft,MoYstudio,wiki">
+    <meta name="description" content="MoYstudio相关作品的维基百科/MoYstudio's related works on Wikipedia">
+    <meta name="author" content="zirran,Terry_MC">
+
+    <script src="https://cdn.bootcss.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="icon" href="https://pub-cdn-oss.chuangkit.com/design/2024/04/26/ba9941ec-9845-4d3f-aa82-1f425b228027_thumb?v=1720258624000&imageMogr2/thumbnail/200x%3E/format/webp">
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+
+<body onload="loadMarkdownFile()">
+    <canvas id="canvas"></canvas>
+    <form class="ser">
+        <input type="text" id="serInput" placeholder="Search...">
+    </form>
+    <ul class="serResult"></ul>
+    <div id="content-cn" style="display: none;">
+        <ul class="menu">
+            <a href="#home" height="100%" width="100%" style="margin-left: 1%;"><img src="https://pub-cdn-oss.chuangkit.com/design/2024/07/21/aa7dfe36-5e0c-429b-984f-8be07aa3d188_thumb?v=1721548591000&imageMogr2/thumbnail/200x%3E/format/webp" width="40%"></a>
+            <li><a href="#studio_wiki" class="center text"><b>工作室</b></a></li>
+            <li><a href="#works_wiki" class="center text"><b>作品</b></a></li>
+            <li><a href="#server_wiki" class="center text"><b>服务器</b></a></li>
+            <li><a href="#mc_wiki" class="center text"><b>MC</b></a></li>
+            <li class="social-icon"><a href="https://github.com/MoYstudio" target="_blank"><img src="src/img/github.svg" height="25%" width="25%"></a></li>
+            <li class="social-icon"><a href="https://qm.qq.com/cgi-bin/qm/qr?k=15CPcvmLEwnZTzq1VgYq30gKjtkV6TFy&jump_from=webapi&authKey=PZOdQhwGK3yP2GAwNh6Yt8m8aywRBZN6ZURRWacvw61PAIW3l0wq6nYuSKm9DkaK" target="_blank"><img src="src/img/qq.svg" height="25%" width="25%"></a></li>
+            <li class="social-icon"><a href="https://modrinth.com/user/zirranYa" target="_blank"><img src="src/img/modrinth.svg" height="25%" width="25%"></a></li>
+            <li class="social-icon"><a href="https://afdian.com/a/zirran_Ya" target="_blank"><img src="src/img/afdian.svg" height="25%" width="25%"></a></li>
+        </ul>
+    </div>
+
+    <div id="content-en" style="display: none;">
+        <ul class="menu">
+            <a href="#home" height="100%" width="100%" style="margin-left: 1%;"><img src="https://pub-cdn-oss.chuangkit.com/design/2024/07/21/aa7dfe36-5e0c-429b-984f-8be07aa3d188_thumb?v=1721548591000&imageMogr2/thumbnail/200x%3E/format/webp" width="40%"/></a>
+            <li><a href="#studio_wiki" class="center text"><b>Studio</b></a></li>
+            <li><a href="#works_wiki" class="center text"><b>Works</b></a></li>
+            <li><a href="#server_wiki" class="center text"><b>Server</b></a></li>
+            <li><a href="#mc_wiki" class="center text"><b>Minecraft</b></a></li>
+            <li class="social-icon"><a href="https://github.com/MoYstudio" target="_blank"><img src="src/img/github.svg" height="25%" width="25%"></a></li>
+            <li class="social-icon"><a href="https://modrinth.com/user/zirranYa" target="_blank"><img src="src/img/modrinth.svg" height="25%" width="25%"></a></li>
+        </ul>
+    </div>
+
+    <div class="bd">
+        
+        <div id="home">
+            <div id="content-cn" style="display: none;">
+                <div id="markdown-content-cn-intro"></div>
+            </div>
+            <div id="content-en" style="display: none;">
+                <div id="markdown-content-en-intro"></div>
+            </div>
+        </div>
+
+        <div id="markdown-content-divide" class="center"></div>
+
+        <div id="studio_wiki">
+            <div id="content-cn" style="display: none;">
+                <div id="markdown-content-cn-studio"></div>
+            </div>
+            <div id="content-en" style="display: none;">
+                <div id="markdown-content-en-studio"></div>
+            </div>
+        </div>
+        
+        <div id="markdown-content-divide" class="center"></div>
+
+        <div id="works_wiki">
+            <div id="content-cn" style="display: none;">
+                <div id="markdown-content-cn-works"></div>
+            </div>
+            <div id="content-en" style="display: none;">
+                <div id="markdown-content-en-works"></div>
+            </div>
+        </div>
+        
+        <div id="markdown-content-divide" class="center"></div>
+
+        <div id="server_wiki">
+            <div id="content-cn" style="display: none;">
+                <div id="markdown-content-cn-server"></div>
+            </div>
+            <div id="content-en" style="display: none;">
+                <div id="markdown-content-en-server"></div>
+            </div>
+        </div>
+        
+        <div id="markdown-content-divide" class="center"></div>
+
+        <div id="mc_wiki">
+            <div id="content-cn" style="display: none;">
+                <div id="markdown-content-cn-mc"></div>
+            </div>
+            <div id="content-en" style="display: none;">
+                <div id="markdown-content-en-mc"></div>
+            </div>
+        </div>
+
+        <iframe frameborder="no" border="0" class="musicplayer" marginwidth="0" marginheight="0" width=330 height=66 src="https://i.y.qq.com/n2/m/outchain/player/index.html?songid=127762413&songtype=0"></iframe>
+
+    </div>
+    <script src="js/transport.js"></script>
+    <script src="js/md_in.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/license_prot.js"></script>
+    <script src="js/jump.js"></script>
+    <script src="js/search.js"></script>
+</body>
+
+
+</html>
