@@ -36,7 +36,7 @@
 - **Pre-Classic[2 versions]**: The first version of Minecraft, made by **grass, dirt, stone, and you(Steve)**；
 - **Classic[分2个版本]** ：添加了**铁矿、树和黑曜石**；
 - **Indev[2 versions]**: Added **survival mode, inventory and crafting table**；
-- **Infdev[分2个版本]** ：添加了**无限地图和洞穴系统**；
+- **Infdev[2 versions]**: Added **infinity world and caves**；
 - **Alpha[分2个版本]** ：添加了**基础生物群系和下界**；
 - **Beta[分2个版本]** ：添加了**创造模式和最初的村庄建筑**；
 
