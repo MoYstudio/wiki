@@ -9,7 +9,7 @@
 
 - **[1.0 ~ 1.11.x]** ~~Can use [Java 6](https://www.oracle.com/java/technologies/javase-java-archive-javase6-downloads.html) and [Java 7](https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html)~~，Recommend **[Java 8](https://sdlc-esd.oracle.com/ESD6/JSCDL/jdk/8u421-b09/d8aa705069af427f9b83e66b34f5e380/JavaSetup8u421.exe?GroupName=JSC\&FilePath=/ESD6/JSCDL/jdk/8u421-b09/d8aa705069af427f9b83e66b34f5e380/JavaSetup8u421.exe\&BHost=javadl.sun.com\&File=JavaSetup8u421.exe\&AuthParam=1721620258_ef8af9a331f074e13a8d495ebcacc50c\&ext=.exe)**；
 - **[1.12(17w13a) ~ 1.16.5(1.17-21w18a)]** Required **[Java 8](https://sdlc-esd.oracle.com/ESD6/JSCDL/jdk/8u421-b09/d8aa705069af427f9b83e66b34f5e380/JavaSetup8u421.exe?GroupName=JSC\&FilePath=/ESD6/JSCDL/jdk/8u421-b09/d8aa705069af427f9b83e66b34f5e380/JavaSetup8u421.exe\&BHost=javadl.sun.com\&File=JavaSetup8u421.exe\&AuthParam=1721620258_ef8af9a331f074e13a8d495ebcacc50c\&ext=.exe)**；
-- **[1.17(21w19a) ~ 1.17.1]** Required **[Java 16](https://www.oracle.com/java/technologies/javase/jdk16-archive-downloads.html)**，大部分组件也**兼容 [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)**；
+- **[1.17(21w19a) ~ 1.17.1]** Required **[Java 16](https://www.oracle.com/java/technologies/javase/jdk16-archive-downloads.html)**，Most of the components are **also compatible [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)**；
 - **[1.18(1.18-pre2) ~ 1.20.4]** Required **[Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)**；
 - **[1.20.5(24w14a) and above]** Required **[Java 21](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html)**。
 
@@ -34,19 +34,19 @@
 ### ℹ️ Preview Version
 
 - **Pre-Classic[2 versions]**: The first version of Minecraft, made by **grass, dirt, stone, and you(Steve)**；
-- **Classic[分2个版本]** ：添加了**铁矿、树和黑曜石**；
+- **Classic[2 versions]**: Added **iron ore, tree and obsidian**；
 - **Indev[2 versions]**: Added **survival mode, inventory and crafting table**；
 - **Infdev[2 versions]**: Added **infinity world and caves**；
 - **Alpha[2 versions]**: Added **biomes and the nether**；
-- **Beta[分2个版本]** ：添加了**创造模式和最初的村庄建筑**；
+- **Beta[2 versions]**: Added **creative mode and original villages**；
 
 ---
 
-### ℹ️ 正式版本（仅给出重要更新版本）
+### ℹ️ Official Versions (important updates only)
 
-- **1.0** ：添加了**末地和动物繁殖系统**；
-- **1.1** ：添加了**创造模式种的生物蛋**；
-- **1.2.1** ：添加了**森林群系**；
+- **1.0**: Added **the end and animal breeding**；
+- **1.1**: Added **spawner eggs**；
+- **1.2.1**: Added **forest biome**；
 - **1.3.1** ：添加了**村民交易系统、沙漠群系和丛林神庙建筑**；
 - **1.4.2** ：添加了**女巫、胡萝卜、马铃薯、南瓜派、夜视和隐身药水**；
 - **1.5** ：添加了**红石系统和石英相关物品**；
