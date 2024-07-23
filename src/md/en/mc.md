@@ -1,6 +1,6 @@
 <ul class="menumd">
-    <li class="center text"><a href="#mc_java_cn" class="center text">所需JAVA</a></li>
-    <li class="center text"><a href="#mc_version_cn" class="center text">版本更新</a></li>
+    <li class="center text"><a href="#mc_java_en" class="center text">JAVA VER</a></li>
+    <li class="center text"><a href="#mc_version_en" class="center text">Version UPD</a></li>
 </ul>
 
 <div id="mc_java_cn" style="display: none;">
@@ -19,7 +19,7 @@
 
 - Java 6, Java 7, Java 16 **needs to login to the oracle network** to download; Java 8, Java 17, Java 21 **does not**.
 
-- Java 7 and above can run on Mac. Java 7 and above can run on Mac. **Oracle Java 8 requires administrator permission to install** Java 7 and above can run on Mac. **Oracle Java 8 requires administrator permission to install**
+- Java 7 and above can run on Mac. **Oracle Java 8 requires administrator permission to install**
 
 - Java downloading tutorials for **Linux** [⏭️](https://cn.linux-console.net/?p=31017)
 
@@ -33,29 +33,29 @@
 
 ### ℹ️ Preview Version
 
-- **Pre-Classic[2 versions]**: The first version of Minecraft, made by **grass, dirt, stone, and you(Steve)**；
-- **Classic[2 versions]**: Added **iron ore, tree and obsidian**；
-- **Indev[2 versions]**: Added **survival mode, inventory and crafting table**；
-- **Infdev[2 versions]**: Added **infinity world and caves**；
-- **Alpha[2 versions]**: Added **biomes and the nether**；
-- **Beta[2 versions]**: Added **creative mode and original villages**；
+- **Pre-Classic[2 versions]**: The first version of Minecraft, made by **grass, dirt, stone, and you(Steve)**;
+- **Classic[2 versions]**: Added **iron ore, tree and obsidian**;
+- **Indev[2 versions]**: Added **survival mode, inventory and crafting table**;
+- **Infdev[2 versions]**: Added **infinity world and caves**;
+- **Alpha[2 versions]**: Added **biomes and the nether**;
+- **Beta[2 versions]**: Added **creative mode and original villages**;
 
 ---
 
 ### ℹ️ Official Versions (important updates only)
 
-- **1.0**: Added **the end and animal breeding**；
-- **1.1** ：添加了**创造模式中的生物蛋**；
-- **1.2.1**: Added **forest biome**；
-- **1.3.1**: Added **villager trading system, desert biome and jungle temple**
-- **1.4.2** : Added **Witch, Carrot, Potato, Pumpkin Pie, Night Vision and Invisibility Potion**;
-- **1.5** : Added **redstone system and quartz-related items**;
-- **1.6** ：添加了**马**；
-- **1.7** ：添加了**花、颜色系统和更多的方块材质、类型以及众多生物群系**；
-- **1.8** ：添加了**海底神殿建筑和新的玩家角色（Alex）**；
-- **1.9** ：添加了**PvP系统、末地城和鞘翅**；
-- **1.10** ：添加了**冰原群系**；
-- **1.11** ：添加了**流浪商人**；
+- **1.0**: Added **the end and animal breeding**;
+- **1.1**: Added **spawner eggs**;
+- **1.2.1**: Added **forest biome**;
+- **1.3.1**: Added **villager trading system, desert biome and jungle temple**;
+- **1.4.2**: Added **witch, carrot, potato, pumpkin pie, night vision and invisibility potion**;
+- **1.5**: Added **redstone system and quartz-related items**;
+- **1.6**: Added **horse**;
+- **1.7**: Added **flower, color system, more block textures, types and lots of biomes**;
+- **1.8**: Added **the ocean monument and Alex**;
+- **1.9**: Added **PvP system, the end city and elytra**;
+- **1.10**: Added **snowy plain biome**；
+- **1.11**: Added **wandering trader**；
 - **1.12** ：添加了**更丰富的色彩、陶瓦方块**；
 - **1.13** ：添加了**丰富的水生生物（海豚、珊瑚......）以及完整的海洋系统、寻宝系统和海洋之心**；
 - **1.14** ：添加了**熊猫和狐狸、劫掠系统和劫掠哨塔建筑**；
