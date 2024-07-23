@@ -33,6 +33,21 @@ a.text:hover{
     top: 70px;
 }
 
+.menumd{
+    list-style-type: none;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 90%;
+    height: 15%;
+    display: list-item;
+    border: 5px solid rgba(208, 205, 205, 0.6);
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+}
+
 ul.menu {
     list-style-type: none;
     padding: 0;
