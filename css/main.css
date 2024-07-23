@@ -33,7 +33,7 @@ a.text:hover{
     top: 70px;
 }
 
-.menumd{
+ul.menumd{
     list-style-type: none;
     padding: 0;
     margin-left: auto;
@@ -46,6 +46,15 @@ a.text:hover{
     border: 5px solid rgba(208, 205, 205, 0.6);
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
+}
+ul.menumd li{
+    float: none;
+    width: 10%;
+    height: 10%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    color: #e2e9ed;
+    font-size: medium;
 }
 
 ul.menu {
