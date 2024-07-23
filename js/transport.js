@@ -11,5 +11,8 @@ lanugages.forEach(lang => {
     }
 })
 if(debugFlag){
-    console.error(`Error: No Language Detected! Current User Language: ${userLang}`);
+    console.error(`Error: No Language Detected! Using Chinese For Default Language! Current User Language: ${userLang}`);
+    document.querySelectorAll('#content-cn').forEach(function(div) {
+        div.style.display = 'block';
+    });
 }
