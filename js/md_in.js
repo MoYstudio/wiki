@@ -1,70 +1,39 @@
-function loadMarkdownFile() {
-        fetch("../src/md/cn/intro.md")
+function loadMarkdownFile(){
+    const lanugages = ['cn','en','ru'];
+    const basePath = '../src/md';
+    lanugages.forEach(lan => {
+        fetch(`${basePath}${lang}/intro.md`)
         .then(response => response.text())
         .then(markdown => {
             const html = marked.parse(markdown);
-            document.getElementById('markdown-content-cn-intro').innerHTML = html;
+            document.getElementById(`markdown-content-${lang}-intro`).innerHTML = html;
         });
-        fetch("../src/md/cn/studio.md")
+        fetch(`${basePath}${lang}/studio.md`)
         .then(response => response.text())
         .then(markdown => {
             const html = marked.parse(markdown);
-            document.getElementById('markdown-content-cn-studio').innerHTML = html;
-        });
-        fetch('../src/md/cn/works.md')
-        .then(response => response.text())
-        .then(markdown => {
-            const html = marked.parse(markdown);
-            document.getElementById('markdown-content-cn-works').innerHTML = html;
-        });
-        fetch('../src/md/cn/server.md')
-        .then(response => response.text())
-        .then(markdown => {
-            const html = marked.parse(markdown);
-            document.getElementById('markdown-content-cn-server').innerHTML = html;
-        });
-        fetch('../src/md/cn/mc.md')
-        .then(response => response.text())
-        .then(markdown => {
-            const html = marked.parse(markdown);
-            document.getElementById('markdown-content-cn-mc').innerHTML = html;
+            document.getElementById(`markdown-content-${lang}-studio`).innerHTML = html;
         });
 
-        
-        fetch('../src/md/en/intro.md')
+    fetch(`${basePath}${lang}/works.md`)
         .then(response => response.text())
         .then(markdown => {
             const html = marked.parse(markdown);
-            document.getElementById('markdown-content-en-intro').innerHTML = html;
+            document.getElementById(`markdown-content-${lang}-works`).innerHTML = html;
         });
-        fetch('../src/md/en/studio.md')
+
+    fetch(`${basePath}${lang}/server.md`)
         .then(response => response.text())
         .then(markdown => {
             const html = marked.parse(markdown);
-            document.getElementById('markdown-content-en-studio').innerHTML = html;
+            document.getElementById(`markdown-content-${lang}-server`).innerHTML = html;
         });
-        fetch('../src/md/en/works.md')
+
+    fetch(`${basePath}${lang}/mc.md`)
         .then(response => response.text())
         .then(markdown => {
             const html = marked.parse(markdown);
-            document.getElementById('markdown-content-en-works').innerHTML = html;
+            document.getElementById(`markdown-content-${lang}-mc`).innerHTML = html;
         });
-        fetch('../src/md/en/server.md')
-        .then(response => response.text())
-        .then(markdown => {
-            const html = marked.parse(markdown);
-            document.getElementById('markdown-content-en-server').innerHTML = html;
-        });
-        fetch('../src/md/en/mc.md')
-        .then(response => response.text())
-        .then(markdown => {
-            const html = marked.parse(markdown);
-            document.getElementById('markdown-content-en-mc').innerHTML = html;
-        });
-        fetch('../src/md/divide.md')
-        .then(response => response.text())
-        .then(markdown => {
-            const html = marked.parse(markdown);
-            document.getElementById('markdown-content-divide').innerHTML = html;
-        });
+});
 }

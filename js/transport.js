@@ -1,4 +1,4 @@
-var userLang=navigator.language||navigator.userLanguage;
+/*var userLang=navigator.language||navigator.userLanguage;
 if (userLang.indexOf('zh')===0){
     var changeDivs=document.querySelectorAll("#content-cn");
     changeDivs.forEach(function(div){
@@ -10,4 +10,20 @@ else{
     changeDivs.forEach(function(div){
         div.style.display='block';
     })
+}*/
+
+var userLang = navigator.language || navigator.userLanguage;
+
+if (userLang.indexOf('zh') === 0) {
+    document.querySelectorAll('[id^="content-cn"]').forEach(function(div) {
+        div.style.display = 'block';
+    });
+} else if (userLang.indexOf('en') === 0) {
+    document.querySelectorAll('[id^="content-en"]').forEach(function(div) {
+        div.style.display = 'block';
+    });
+} else if (userLang.indexOf('ru') === 0) {
+    document.querySelectorAll('[id^="content-ru"]').forEach(function(div) {
+        div.style.display = 'block';
+    });
 }
