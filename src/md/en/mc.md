@@ -1,9 +1,9 @@
-<ul class="menu">
-    <li class="center text"><a href="#mc-java">JAVA VER</a></li>
-    <li class="center text"><a href="#mc-version">Version UPD</a></li>
+<ul class="menumd">
+    <li class="center text"><a href="#mc_java_en" class="center text">JAVA VER</a></li>
+    <li class="center text"><a href="#mc_version_en" class="center text">Version UPD</a></li>
 </ul>
 
-<div id="mc-java" style="display=none;">
+<div id="mc_java_en" style="display: none;">
 
 ## ➡️ Java versions required to run
 
@@ -27,7 +27,7 @@
 
 ---
 
-<div id="mc-version" style="display=none;">
+<div id="mc_version_en" style="display: none;">
 
 ## ➡️ Minecraft Development History
 
