@@ -148,13 +148,16 @@
             if(scroll>=100){
                 hidden=0;
             }
+            if(scroll<100){
+                hidden=1;
+            }
             if(hidden){
                 totop.style.display='none';
             }
             else{
                 totop.style.display='block';
             }
-            //console.log(`Scroll Y: ${scroll}`);
+            console.log(`Scroll Y: ${scroll}`);
         }
         setInterval("loop()",100);
     </script>
