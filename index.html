@@ -144,7 +144,7 @@
             hidden=1;
         }
         function loop(){
-            scroll=window.scrollX;
+            scroll=window.scrollY;
             if(scroll>=100){
                 hidden=0;
             }
@@ -154,7 +154,7 @@
             else{
                 totop.style.display='block';
             }
-            //console.log(`Scroll X: ${scroll}`);
+            //console.log(`Scroll Y: ${scroll}`);
         }
         setInterval("loop()",100);
     </script>
