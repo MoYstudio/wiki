@@ -11,23 +11,13 @@ else{
         div.style.display='block';
     })
 }*/
-
+const userLang = navigator.language || navigator.userLanguage;
 const lanugages = ['cn','en','ru'];
 const basePath = '../src/md';
-    lanugages.forEach(lan => {
-var userLang = navigator.language || navigator.userLanguage;
-
-if (userLang.indexOf('zh') === 0) {
-    document.querySelectorAll('[id^="content-cn"]').forEach(function(div) {
-        div.style.display = 'block';
-    });
-} else if (userLang.indexOf('en') === 0) {
-    document.querySelectorAll('[id^="content-en"]').forEach(function(div) {
-        div.style.display = 'block';
-    });
-} else if (userLang.indexOf('ru') === 0) {
-    document.querySelectorAll('[id^="content-ru"]').forEach(function(div) {
-        div.style.display = 'block';
-    });
-}
+    lanugages.forEach(lang => {
+        if (userLang.indexOf(`${lang}`) === 0) {
+            document.querySelectorAll(`[id^="content-${lang}"]`).forEach(function(div) {
+                div.style.display = 'block';
+            });
+        }
     })
