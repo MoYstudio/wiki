@@ -11,5 +11,5 @@ lanugages.forEach(lang => {
     }
 })
 if(debugFlag){
-    console.error(`Error: No Language Detected!`)
+    console.error(`Error: No Language Detected! Current User Language: ${userLang}`);
 }
