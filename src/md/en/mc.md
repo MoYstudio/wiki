@@ -3,7 +3,7 @@
     <li class="center text"><a href="#mc_version_en" class="center text">Version UPD</a></li>
 </ul>
 
-<div id="mc_java_cn" style="display: none;">
+<div id="mc_java_en" style="display: none;">
 
 ## ➡️ Java versions required to run
 
@@ -27,7 +27,7 @@
 
 ---
 
-<div id="mc_version_cn" style="display: none;">
+<div id="mc_version_en" style="display: none;">
 
 ## ➡️ Minecraft Development History
 
@@ -60,7 +60,7 @@
 - **1.13**: Added **more underwater mobs(dolphins, corals) and completely ocean system, gem system and the heart of the sea**；
 - **1.14**: Added **Panda and Fox, Pillager System and Pillager Outpost Building**;
 - **1.15**: Added **Bee and Honey System**;
-- - **1.16**: \*\* Nether block material changes\*\*, add **piglins and other creatures, add netherite and tokens, add 4 new biomes**;
+- - **1.16**: **Nether block material changes**, add **piglins and other creatures, add netherite and tokens, add 4 new biomes**;
 - **1.17**: Added **more underground biomes, cave block additions, tinted glass, copper and its tokens, cuckoo related blocks, etc.**;
 - **1.18**: Added **more cave types and mountain terrain generation is more realistic**;
 - **1.19** ：添加了**红树林沼泽和深暗之域生态系统、远古城市结构及其相关方块和物品和坚守者、悦灵**；
