@@ -3,7 +3,7 @@
     <li class="center text"><a href="#mc-version">Version UPD</a></li>
 </ul>
 
-<div id="mc-java">
+<div id="mc-java" style="display=none;">
 
 ## ➡️ Java versions required to run
 
@@ -27,7 +27,7 @@
 
 ---
 
-<div id="mc-version">
+<div id="mc-version" style="display=none;">
 
 ## ➡️ Minecraft Development History
 
