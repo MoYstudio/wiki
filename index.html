@@ -138,20 +138,24 @@
     <button id="totop" style="position: fixed; right: 1%; bottom: 1%; border-radius: 10px; border: 5px solid aliceblue; background-color: aliceblue; width: 5%; height: 10%;"><ion-icon name="chevron-up-outline" size="large"></ion-icon></button>
     <script>
         let hidden=1;
+        var scroll=window.scrollX;
         totop.onclick=function(){
             scrollTo(0,0);
             hidden=1;
         }
-        var scroll=window.scrollX;
-        if(scroll>=100){
-            hidden=0;
+        function loop(){
+            scroll=window.scrollX;
+            if(scroll>=100){
+                hidden=0;
+            }
+            if(hidden){
+                totop.style.display='none';
+            }
+            else{
+                totop.style.display='block';
+            }
         }
-        if(hidden){
-            totop.style.display='none';
-        }
-        else{
-            totop.style.display='block';
-        }
+        setInterval("loop()",100);
     </script>
     <script src="js/transport.js"></script>
     <script src="js/md_in.js"></script>
