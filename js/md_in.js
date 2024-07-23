@@ -1,6 +1,6 @@
 function loadMarkdownFile(){
     const lanugages = ['cn','en','ru'];
-    const basePath = '../src/md';
+    const basePath = '../src/md/';
     lanugages.forEach(lang => {
         fetch(`${basePath}${lang}/intro.md`)
             .then(response => response.text())
