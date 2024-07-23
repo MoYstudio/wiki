@@ -1,8 +1,8 @@
-const userLang = navigator.language || navigator.userLanguage;
+var userLang = navigator.language || navigator.userLanguage;
 const lanugages = ['cn','en','ru'];
 let debugFlag = 1;
 lanugages.forEach(lang => {
-    if (userLang.indexOf(`${lang}`) !== -1) {
+    if (userLang.toLowerCase().indexOf(`${lang}`) !== -1) {
         document.querySelectorAll(`#content-${lang}`).forEach(function(div) {
             div.style.display = 'block';
             console.log(`User Language Detected: ${lang}`);
