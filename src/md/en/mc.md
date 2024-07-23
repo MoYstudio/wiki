@@ -1,9 +1,9 @@
-<ul class="menu">
-    <li class="center text"><a href="#mc-java">JAVA VER</a></li>
-    <li class="center text"><a href="#mc-version">Version UPD</a></li>
+<ul class="menumd">
+    <li class="center text"><a href="#mc_java_cn" class="center text">所需JAVA</a></li>
+    <li class="center text"><a href="#mc_version_cn" class="center text">版本更新</a></li>
 </ul>
 
-<div id="mc-java" style="display: none;">
+<div id="mc_java_cn" style="display: none;">
 
 ## ➡️ Java versions required to run
 
@@ -19,7 +19,7 @@
 
 - Java 6, Java 7, Java 16 **needs to login to the oracle network** to download; Java 8, Java 17, Java 21 **does not**.
 
-- Java 7 and above can run on Mac. Java 7 and above can run on Mac. **Oracle Java 8 requires administrator permission to install**\*\* Java 7 and above can run on Mac. **Oracle Java 8 requires administrator permission to install**\*\*
+- Java 7 and above can run on Mac. Java 7 and above can run on Mac. **Oracle Java 8 requires administrator permission to install** Java 7 and above can run on Mac. **Oracle Java 8 requires administrator permission to install**
 
 - Java downloading tutorials for **Linux** [⏭️](https://cn.linux-console.net/?p=31017)
 
@@ -27,7 +27,7 @@
 
 ---
 
-<div id="mc-version" style="display: none;">
+<div id="mc_version_cn" style="display: none;">
 
 ## ➡️ Minecraft Development History
 
@@ -45,14 +45,14 @@
 ### ℹ️ Official Versions (important updates only)
 
 - **1.0**: Added **the end and animal breeding**；
-- **1.1**: Added **spawner eggs**；
+- **1.1** ：添加了**创造模式中的生物蛋**；
 - **1.2.1**: Added **forest biome**；
 - **1.3.1**: Added **villager trading system, desert biome and jungle temple**
 - **1.4.2** : Added **Witch, Carrot, Potato, Pumpkin Pie, Night Vision and Invisibility Potion**;
 - **1.5** : Added **redstone system and quartz-related items**;
 - **1.6** ：添加了**马**；
 - **1.7** ：添加了**花、颜色系统和更多的方块材质、类型以及众多生物群系**；
-- **1.8** ：添加了**海底神殿建筑和Alex**；
+- **1.8** ：添加了**海底神殿建筑和新的玩家角色（Alex）**；
 - **1.9** ：添加了**PvP系统、末地城和鞘翅**；
 - **1.10** ：添加了**冰原群系**；
 - **1.11** ：添加了**流浪商人**；
