@@ -6,7 +6,7 @@
 
 ### 📄 支持语言
 
-目前此wiki项目仅支持**简体中文**（zirran，Terry_MC）和**英文**（zirran，Terry_MC），~~wiki会自动选择与浏览器相同的语言~~ **（目前仅支持2种）**
+目前此wiki项目仅支持**简体中文**、**英文**、 **俄语** ，~~wiki会自动选择与浏览器相同的语言~~
 
 没有自己使用的语言？没有关系，加入 **_我们的多语言计划_** [![Crowdin](https://badges.crowdin.net/moywiki/localized.svg)](https://crowdin.com/project/moywiki)，为大家贡献自己的力量！
 
@@ -23,9 +23,7 @@
 
 ### 🤝 合作&赞助
 
-**_Terry_MC_**：无私的贡献了所有相关网站包括DoF2MoY工作室官方服的服务器
-
-**_小图图_**：无私的贡献了1.21MoY工作室官方服的服务器
+**_Terry_MC_**：无私的贡献了所有相关网站
 
 ---
 
@@ -37,7 +35,7 @@ This wiki was written by Terry_MC of MoY studio zirran
 
 ### 📄 Supported Languages
 
-At present, this wiki project only supports **Chinese Simplified** (zirran, Terry_MC) and **English** (zirran, Terry_MC),  ~~wiki will automatically select the same language as the browser~~  **(currently only 2 are supported)**
+At present, this wiki project only supports **Chinese Simplified**, **English**, **Russian**, ~~wiki will automatically select the same language as the browser~~
 
 Don't have your own language?Don't have your own language?It doesn't matter, join **_our multilingual program_** [![Crowdin](https://badges.crowdin.net/moywiki/localized.svg)](https://crowdin.com/project/moywiki) , contribute to everyone!
 
@@ -53,6 +51,26 @@ Don't have your own language?Don't have your own language?It doesn't matter, joi
 
 ### 🤝 Partnerships & Sponsorships
 
-**_Terry_MC_**: Selflessly contributed to all related websites including the server of the official server of DoF2 MoY Studio
+**_Terry_MC_**: Selflessly contributed to all related websites
 
-**_Rimon12_**: Selflessly contributed to the server of the official server of the 1.21 MoY studio
+---
+
+### 📣 Декларация
+
+Эта вики была написана Terry_MC студии MoY zirran
+
+---
+
+### 📄 Поддерживаемые языки
+
+В настоящее время этот вики-проект поддерживает только **китайский упрощенный**, **английский**, **русский**, ~~wiki автоматически выберет тот же язык, что и браузер~~
+
+У вас нет своего языка? Не важно, присоединяйтесь к **_our многоязычному program_** [![Crowdin](https://badges.crowdin.net/moywiki/localized.svg)](https://crowdin.com/project/moywiki), внесите свой вклад в помощь всем!
+
+---
+
+### 😶‍🌫️ Введение в вики
+
+- Почему вы написали эту вики? С самого начала**Доминирует страх v1.0** до текущей **Доминирует страх 2: Containment Breach**, а затем до создания**MoY Studio**, от первоначальной неизвестности до нынешней славы, мы пережили многое, и постепенно идем в мир. В этом процессе мы поняли, что можем не только опираться на такие платформы, как BiliBili и YouTube, но и нуждаемся в энциклопедии, которая была бы более актуальна для поклонников нашей студии, и родился этот вики-проект.
+
+- Эта википедия содержит некоторые проблемы и советы по всем проектам нашей студии (включая сервер) ~~ (большинство из них исходят из issue, группового чата QQ) ~~ и некоторые реальные часы и функции текущего **Java Edition** Minecraft и т.д.

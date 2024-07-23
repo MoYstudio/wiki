@@ -6,9 +6,9 @@ This wiki was written by Terry_MC of MoY studio zirran
 
 ### 📄 Supported Languages
 
-At present, this wiki project only supports **Chinese Simplified** (zirran, Terry_MC) and **English** (zirran, Terry_MC),  ~~wiki will automatically select the same language as the browser~~  **(currently only 2 are supported)**
+At present, this wiki project only supports **Chinese Simplified**, **English**, **Russian**, ~~wiki will automatically select the same language as the browser~~
 
-Don't have your own language?Don't have your own language?Don't have your own language?Don't have your own language?It doesn't matter, join **_our multilingual program_** [![Crowdin](https://badges.crowdin.net/moywiki/localized.svg)](https://crowdin.com/project/moywiki) , contribute to everyone!
+Don't have your own language?Don't have your own language?It doesn't matter, join **_our multilingual program_** [![Crowdin](https://badges.crowdin.net/moywiki/localized.svg)](https://crowdin.com/project/moywiki) , contribute to everyone!
 
 ---
 
@@ -22,6 +22,4 @@ Don't have your own language?Don't have your own language?Don't have your own la
 
 ### 🤝 Partnerships & Sponsorships
 
-**_Terry_MC_**: Selflessly contributed to all related websites including the server of the official server of DoF2 MoY Studio
-
-**_Rimon12_**: Selflessly contributed to the server of the official server of the 1.21 MoY studio
+**_Terry_MC_**: Selflessly contributed to all related websites

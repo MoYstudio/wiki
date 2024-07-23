@@ -6,7 +6,7 @@
 
 ### 📄 支持语言
 
-目前此wiki项目仅支持**简体中文**（zirran，Terry_MC）和**英文**（zirran，Terry_MC），~~wiki会自动选择与浏览器相同的语言~~ **（目前仅支持2种）**
+目前此wiki项目仅支持**简体中文**、**英文**、 **俄语** ，~~wiki会自动选择与浏览器相同的语言~~
 
 没有自己使用的语言？没有关系，加入 **_我们的多语言计划_** [![Crowdin](https://badges.crowdin.net/moywiki/localized.svg)](https://crowdin.com/project/moywiki)，为大家贡献自己的力量！
 
@@ -23,6 +23,4 @@
 
 ### 🤝 合作&赞助
 
-**_Terry_MC_**：无私的贡献了所有相关网站包括DoF2MoY工作室官方服的服务器
-
-**_小图图_**：无私的贡献了1.21MoY工作室官方服的服务器
+**_Terry_MC_**：无私的贡献了所有相关网站
