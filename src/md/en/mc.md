@@ -7,8 +7,8 @@
 
 ## ➡️ Java versions required to run
 
-- **[1.0 ~ 1.11.x]** ~~Can use [Java 6](https://www.oracle.com/java/technologies/javase-java-archive-javase6-downloads.html) and [Java 7](https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html)~~，Recommend **[Java 8](https://sdlc-esd.oracle.com/ESD6/JSCDL/jdk/8u421-b09/d8aa705069af427f9b83e66b34f5e380/JavaSetup8u421.exe?GroupName=JSC\\\&FilePath=/ESD6/JSCDL/jdk/8u421-b09/d8aa705069af427f9b83e66b34f5e380/JavaSetup8u421.exe\\\&BHost=javadl.sun.com\\\&File=JavaSetup8u421.exe\\\&AuthParam=1721620258_ef8af9a331f074e13a8d495ebcacc50c\\\&ext=.exe)**；
-- **[1.12(17w13a) ~ 1.16.5(1.17-21w18a)]** Required **[Java 8](https://sdlc-esd.oracle.com/ESD6/JSCDL/jdk/8u421-b09/d8aa705069af427f9b83e66b34f5e380/JavaSetup8u421.exe?GroupName=JSC\\\&FilePath=/ESD6/JSCDL/jdk/8u421-b09/d8aa705069af427f9b83e66b34f5e380/JavaSetup8u421.exe\\\&BHost=javadl.sun.com\\\&File=JavaSetup8u421.exe\\\&AuthParam=1721620258_ef8af9a331f074e13a8d495ebcacc50c\\\&ext=.exe)**；
+- **[1.0 ~ 1.11.x]** ~~Can use [Java 6](https://www.oracle.com/java/technologies/javase-java-archive-javase6-downloads.html) and [Java 7](https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html)~~，Recommend **[Java 8](https://sdlc-esd.oracle.com/ESD6/JSCDL/jdk/8u421-b09/d8aa705069af427f9b83e66b34f5e380/JavaSetup8u421.exe?GroupName=JSC\\\\&FilePath=/ESD6/JSCDL/jdk/8u421-b09/d8aa705069af427f9b83e66b34f5e380/JavaSetup8u421.exe\\\\&BHost=javadl.sun.com\\\\&File=JavaSetup8u421.exe\\\\&AuthParam=1721620258_ef8af9a331f074e13a8d495ebcacc50c\\\\&ext=.exe)**；
+- **[1.12(17w13a) ~ 1.16.5(1.17-21w18a)]** Required **[Java 8](https://sdlc-esd.oracle.com/ESD6/JSCDL/jdk/8u421-b09/d8aa705069af427f9b83e66b34f5e380/JavaSetup8u421.exe?GroupName=JSC\\\\&FilePath=/ESD6/JSCDL/jdk/8u421-b09/d8aa705069af427f9b83e66b34f5e380/JavaSetup8u421.exe\\\\&BHost=javadl.sun.com\\\\&File=JavaSetup8u421.exe\\\\&AuthParam=1721620258_ef8af9a331f074e13a8d495ebcacc50c\\\\&ext=.exe)**；
 - **[1.17(21w19a) ~ 1.17.1]** Required **[Java 16](https://www.oracle.com/java/technologies/javase/jdk16-archive-downloads.html)**，Most of the components are **also compatible [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)**；
 - **[1.18(1.18-pre2) ~ 1.20.4]** Required **[Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)**；
 - **[1.20.5(24w14a) and above]** Required **[Java 21](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html)**。
@@ -19,7 +19,7 @@
 
 - Java 6, Java 7, Java 16 **needs to login to the oracle network** to download; Java 8, Java 17, Java 21 **does not**.
 
-- Java 7 and above can run on Mac. **Oracle Java 8 requires administrator permission to install**
+- Java 7 and above can run on Mac. Java 7 and above can run on Mac. **Oracle Java 8 requires administrator permission to install** Java 7 and above can run on Mac. **Oracle Java 8 requires administrator permission to install** Java 7 and above can run on Mac. **Oracle Java 8 requires administrator permission to install**
 
 - Java downloading tutorials for **Linux** [⏭️](https://cn.linux-console.net/?p=31017)
 
@@ -56,13 +56,13 @@
 - **1.9**: Added **PvP system, the end city and elytra**;
 - **1.10**: Added **snowy plain biome**；
 - **1.11**: Added **wandering trader**；
-- **1.12** ：添加了**更丰富的色彩、陶瓦方块**；
-- **1.13** ：添加了**丰富的水生生物（海豚、珊瑚......）以及完整的海洋系统、寻宝系统和海洋之心**；
-- **1.14** ：添加了**熊猫和狐狸、劫掠系统和劫掠哨塔建筑**；
-- **1.15** ：添加了**蜜蜂和蜂蜜系统**；
-- **1.16** ：**下届方块材质变化**，添加**猪灵等生物、添加下届合金以及衍生物品、添加4种新的生物群系**；
-- **1.17** ：添加了**更多的地下生物群系、洞穴方块增加、遮光玻璃、铜及其衍生物品、杜鹃相关方块等等**；
-- **1.18** ：添加了**更多的洞穴类型和山地地形生成更加真实**；
+- **1.12**: Added **more colors, terracotta**；
+- **1.13**: Added **more underwater mobs(dolphins, corals) and completely ocean system, gem system and the heart of the sea**；
+- **1.14**: Added **Panda and Fox, Pillager System and Pillager Outpost Building**;
+- **1.15**: Added **Bee and Honey System**;
+- - **1.16**: **Nether block material changes**, add **piglins and other creatures, add netherite and tokens, add 4 new biomes**;
+- **1.17**: Added **more underground biomes, cave block additions, tinted glass, copper and its tokens, cuckoo related blocks, etc.**;
+- **1.18**: Added **more cave types and mountain terrain generation is more realistic**;
 - **1.19** ：添加了**红树林沼泽和深暗之域生态系统、远古城市结构及其相关方块和物品和坚守者、悦灵**；
 - **1.20** ：添加**樱花、竹林生态群系、嗅探兽（蛋）、瓶子草、火把花等多种植物、更改了合金武器装备制作方式并添加锻造模板、以及考古系统**；
 - **1.20.3** ：添加**陶罐，内置数据包中加入了合成器、铜块和凝灰岩的变种方块、试炼刷怪笼、旋风人、试炼密室结构**；
