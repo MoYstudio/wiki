@@ -4,7 +4,7 @@ window.onload=function(){
   if(!hash){
     window.location.hash="home"
   }
-}
+}eee
 */
 $(function () {
   common("div");
