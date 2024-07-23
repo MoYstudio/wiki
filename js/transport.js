@@ -12,6 +12,9 @@ else{
     })
 }*/
 
+const lanugages = ['cn','en','ru'];
+const basePath = '../src/md';
+    lanugages.forEach(lan => {
 var userLang = navigator.language || navigator.userLanguage;
 
 if (userLang.indexOf('zh') === 0) {
@@ -27,3 +30,4 @@ if (userLang.indexOf('zh') === 0) {
         div.style.display = 'block';
     });
 }
+    })
