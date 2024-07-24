@@ -18,6 +18,11 @@ on:
       - completed
   status: {}
 jobs:
+  labeler:
+    runs-on :ubuntu-latest
+    steps:
+      - uses: actions/labeler@v5
+    
   automerge:
     runs-on: ubuntu-latest
     steps:
