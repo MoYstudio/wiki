@@ -42,8 +42,8 @@ ul.menumd{
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
-    width: 90%;
-    height: 15%;
+    width: auto;
+    height: auto;
     display: flex;
     border: 5px solid rgba(208, 205, 205, 0.6);
     background-color: rgba(255, 255, 255, 0.7);
