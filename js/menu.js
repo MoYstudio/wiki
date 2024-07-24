@@ -1,8 +1,8 @@
-var menus=document.querySelectorAll('.menu');
-var ser=document.querySelector('.ser');
-var serResult=document.querySelector('.serResult');
+var menus=document.querySelectorAll(".menu");
+var ser=document.querySelector(".ser");
+var serResult=document.querySelector(".serResult");
 var scroll=window.scrollY;
-let hidden=0;
+var hidden=0;
 function menu(){
     scroll=window.scrollY;
     if(scroll>=100){
