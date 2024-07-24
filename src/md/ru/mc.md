@@ -3,7 +3,7 @@
     <li class="center text"><a href="#mc_version_ru" class="center text">版本更新</a></li>
 </ul>
 
-<div id="mc_java_cn" style="display: none;">
+<div id="mc_java_ru" style="display: none;">
 
 ## ➡️ 各版本运行所需的Java版本
 
@@ -27,7 +27,7 @@
 
 ---
 
-<div id="mc_version_cn" style="display: none;">
+<div id="mc_version_ru" style="display: none;">
 
 ## ➡️ 我的世界各个版本的发展史
 
