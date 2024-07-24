@@ -4,9 +4,20 @@ var serResult=document.querySelector(".serResult");
 var serInput=document.getElementById("serInput");
 var scroll=window.scrollY;
 var hidden=0;
+var flag=1;
+document.addEventListener("mousemove", function(event) {
+    if(event.clientY<=(window.innerHeight*0.15)){
+        hidden=0;
+        flag=0;
+        //console.log('set');
+    }
+    else{
+        flag=1;
+    }
+});
 function menu(){
     scroll=window.scrollY;
-    if(scroll>=100){
+    if(scroll>=100 && flag){
         hidden=1;
     }
     if(scroll<100){
@@ -28,6 +39,6 @@ function menu(){
         serResult.style.opacity=1;
         serInput.style.opacity=1;
     }
-    console.log(`Now hidden: ${hidden}`);
+    //console.log(`Now hidden: ${hidden}`);
 }
 setInterval("menu()",50);
