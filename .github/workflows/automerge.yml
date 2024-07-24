@@ -6,7 +6,7 @@ jobs:
   labeler:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       pull-requests: write
     steps:
       - uses: actions/labeler@v5
@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
         contents: write
+        pull-requests: write
     steps:
       - id: automerge
         name: automerge
