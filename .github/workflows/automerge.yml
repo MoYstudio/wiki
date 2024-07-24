@@ -1,6 +1,7 @@
 name: automerge
 on:
   pull_request_target
+
 jobs:
   labeler:
     runs-on: ubuntu-latest
