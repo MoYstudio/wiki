@@ -28,7 +28,7 @@ a.text:hover{
 }
 
 .ser{
-    position: absolute;
+    position: fixed;
     right: 100px;
     top: 70px;
 }
@@ -61,6 +61,8 @@ ul.menumd li{
 }
 
 ul.menu {
+    position: fixed;
+    top: 0;
     list-style-type: none;
     padding: 0;
     margin-left: auto;
@@ -80,7 +82,7 @@ ul.menu {
     margin-bottom: 10px;
 }
 .serResult{
-    position: absolute;
+    position: fixed;
     top: 80px;
     right: 100px;
     z-index: 999;
