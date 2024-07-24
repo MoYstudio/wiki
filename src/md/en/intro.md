@@ -8,7 +8,7 @@ This wiki was written by Terry_MC of MoY studio zirran
 
 At present, this wiki project only supports **Chinese Simplified**, **English**, **Russian**, ~~wiki will automatically select the same language as the browser~~
 
-Don't have your own language?Don't have your own language?Don't have your own language?Don't have your own language?Don't have your own language?It doesn't matter, join **_our multilingual program_** [![Crowdin](https://badges.crowdin.net/moywiki/localized.svg)](https://crowdin.com/project/moywiki) , contribute to everyone!
+Don't have your own language?Don't have your own language?Don't have your own language?Don't have your own language?Don't have your own language?Don't have your own language?It doesn't matter, join **_our multilingual program_** [![Crowdin](https://badges.crowdin.net/moywiki/localized.svg)](https://crowdin.com/project/moywiki) , contribute to everyone!
 
 ---
 
