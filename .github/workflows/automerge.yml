@@ -5,11 +5,16 @@ on:
 jobs:
   labeler:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
       - uses: actions/labeler@v5
     
   automerge:
     runs-on: ubuntu-latest
+    permissions:
+        contents: write
     steps:
       - id: automerge
         name: automerge
