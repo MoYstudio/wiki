@@ -1,6 +1,7 @@
 var menus=document.querySelectorAll(".menu");
 var ser=document.querySelector(".ser");
 var serResult=document.querySelector(".serResult");
+var serInput=document.getElementById("serInput");
 var scroll=window.scrollY;
 var hidden=0;
 function menu(){
@@ -17,6 +18,7 @@ function menu(){
         });
         ser.style.opacity=0;
         serResult.style.opacity=0;
+        serInput.style.opacity=0;
     }
     else{
         menus.forEach(function(now){
@@ -24,6 +26,8 @@ function menu(){
         });
         ser.style.opacity=1;
         serResult.style.opacity=1;
+        serInput.style.opacity=1;
     }
+    console.log(`Now hidden: ${hidden}`);
 }
-setInterval(menu(),0);
+setInterval("menu()",50);
