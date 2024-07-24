@@ -1,5 +1,4 @@
-pull_requests:
-  - name: "crowdin"
-    patterns:
-      - "*crowdin*"
-      - "*Crowdin*"
+crowdin:
+- any:
+  - base-branch: 'l10n_master'
+  - head-branch: 'l10n_master'
