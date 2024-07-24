@@ -28,6 +28,7 @@ a.text:hover{
 }
 
 .ser{
+    transition: opacity 300ms;
     position: fixed;
     right: 100px;
     top: 70px;
@@ -62,6 +63,7 @@ ul.menumd li{
 
 ul.menu {
     position: fixed;
+    transition: opacity 300ms;
     top: 0;
     list-style-type: none;
     padding: 0;
@@ -80,8 +82,10 @@ ul.menu {
 
 #serInput{
     margin-bottom: 10px;
+    transition: opacity 300ms;
 }
 .serResult{
+    transition: opacity 300ms;
     position: fixed;
     top: 80px;
     right: 100px;
