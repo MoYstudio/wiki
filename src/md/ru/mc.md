@@ -1,14 +1,14 @@
 <ul class="menumd">
-    <li class="center text"><a href="#mc_java_ru" class="center text">所需JAVA</a></li>
-    <li class="center text"><a href="#mc_version_ru" class="center text">版本更新</a></li>
+    <li class="center text"><a href="#mc_java_cn" class="center text">所需JAVA</a></li>
+    <li class="center text"><a href="#mc_version_cn" class="center text">版本更新</a></li>
 </ul>
 
-<div id="mc_java_ru" style="display: none;">
+<div id="mc_java_cn" style="display: none;">
 
 ## ➡️ 各版本运行所需的Java版本
 
-- **[1.0 ~ 1.11.x]** ~~可以使用 [Java 6](https://www.oracle.com/java/technologies/javase-java-archive-javase6-downloads.html) 和 [Java 7](https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html)~~，推荐使用 **[Java 8](https://sdlc-esd.oracle.com/ESD6/JSCDL/jdk/8u421-b09/d8aa705069af427f9b83e66b34f5e380/JavaSetup8u421.exe?GroupName=JSC\\\\\\\\\\&FilePath=/ESD6/JSCDL/jdk/8u421-b09/d8aa705069af427f9b83e66b34f5e380/JavaSetup8u421.exe\\\\\\\\\\&BHost=javadl.sun.com\\\\\\\\\\&File=JavaSetup8u421.exe\\\\\\\\\\&AuthParam=1721620258_ef8af9a331f074e13a8d495ebcacc50c\\\\\\\\\\&ext=.exe)**；
-- **[1.12(17w13a) ~ 1.16.5(1.17-21w18a)]** 需要使用 **[Java 8](https://sdlc-esd.oracle.com/ESD6/JSCDL/jdk/8u421-b09/d8aa705069af427f9b83e66b34f5e380/JavaSetup8u421.exe?GroupName=JSC\\\\\\\\\\&FilePath=/ESD6/JSCDL/jdk/8u421-b09/d8aa705069af427f9b83e66b34f5e380/JavaSetup8u421.exe\\\\\\\\\\&BHost=javadl.sun.com\\\\\\\\\\&File=JavaSetup8u421.exe\\\\\\\\\\&AuthParam=1721620258_ef8af9a331f074e13a8d495ebcacc50c\\\\\\\\\\&ext=.exe)**；
+- **[1.0 ~ 1.11.x]** ~~可以使用 [Java 6](https://www.oracle.com/java/technologies/javase-java-archive-javase6-downloads.html) 和 [Java 7](https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html)~~，推荐使用 **[Java 8](https://sdlc-esd.oracle.com/ESD6/JSCDL/jdk/8u421-b09/d8aa705069af427f9b83e66b34f5e380/JavaSetup8u421.exe?GroupName=JSC\&FilePath=/ESD6/JSCDL/jdk/8u421-b09/d8aa705069af427f9b83e66b34f5e380/JavaSetup8u421.exe\&BHost=javadl.sun.com\&File=JavaSetup8u421.exe\&AuthParam=1721620258_ef8af9a331f074e13a8d495ebcacc50c\&ext=.exe)**；
+- **[1.12(17w13a) ~ 1.16.5(1.17-21w18a)]** 需要使用 **[Java 8](https://sdlc-esd.oracle.com/ESD6/JSCDL/jdk/8u421-b09/d8aa705069af427f9b83e66b34f5e380/JavaSetup8u421.exe?GroupName=JSC\&FilePath=/ESD6/JSCDL/jdk/8u421-b09/d8aa705069af427f9b83e66b34f5e380/JavaSetup8u421.exe\&BHost=javadl.sun.com\&File=JavaSetup8u421.exe\&AuthParam=1721620258_ef8af9a331f074e13a8d495ebcacc50c\&ext=.exe)**；
 - **[1.17(21w19a) ~ 1.17.1]** 需要使用 **[Java 16](https://www.oracle.com/java/technologies/javase/jdk16-archive-downloads.html)**，大部分组件也**兼容 [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)**；
 - **[1.18(1.18-pre2) ~ 1.20.4]** 需要使用 **[Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)**；
 - **[1.20.5(24w14a) 及以上版本]** 需要使用 **[Java 21](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html)**。
@@ -27,7 +27,7 @@
 
 ---
 
-<div id="mc_version_ru" style="display: none;">
+<div id="mc_version_cn" style="display: none;">
 
 ## ➡️ 我的世界各个版本的发展史
 
@@ -60,7 +60,7 @@
 - **1.13** ：添加了**丰富的水生生物（海豚、珊瑚......）以及完整的海洋系统、寻宝系统和海洋之心**；
 - **1.14** ：添加了**熊猫和狐狸、劫掠系统和劫掠哨塔建筑**；
 - **1.15** ：添加了**蜜蜂和蜂蜜系统**；
-- **1.16** ：**下届方块材质变化**，添加**猪灵等生物、添加下届合金以及衍生物品、添加4种新的生物群系**；
+- **1.16** ：**下界方块材质变化**，添加**猪灵等生物、添加下界合金以及衍生物品、添加4种新的生物群系**；
 - **1.17** ：添加了**更多的地下生物群系、洞穴方块增加、遮光玻璃、铜及其衍生物品、杜鹃相关方块等等**；
 - **1.18** ：添加了**更多的洞穴类型和山地地形生成更加真实**；
 - **1.19** ：添加了**红树林沼泽和深暗之域生态系统、远古城市结构及其相关方块和物品和坚守者、悦灵**；
